@@ -1,0 +1,1578 @@
+/**
+ * Created by Moudi on 2017/2/28.
+ */
+
+
+body.animation-lock.state1 {
+  &.crow {
+    .wrapper {
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(72.5% 27.2%, 75.4% 24.3%, 80.1% 31%);
+          clip-path: polygon(72.5% 27.2%, 75.4% 24.3%, 80.1% 31%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(72.6% 27.2%, 78.2% 35.15%, 71.3% 30.35%);
+          clip-path: polygon(72.6% 27.2%, 78.2% 35.15%, 71.3% 30.35%);
+        }
+      }
+      &:nth-child(33) {
+        .pieces {
+          -webkit-clip-path: polygon(76.5% 32.6%, 77.5% 29.7%, 78.9% 32.9%);
+          clip-path: polygon(76.5% 32.6%, 77.5% 29.7%, 78.9% 32.9%);
+        }
+      }
+    }
+  }
+
+  &.parrotfish {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(82% 47.9%, 86.45% 43.5%, 87.413% 45.7%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(82% 48%, 86.3% 51.571%, 85.413% 53.286%);
+        }
+      }
+    }
+  }
+
+  &.seahorse {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(23.96% 44.643%, 22.9% 50.643%, 25.5% 49%);
+        }
+      }
+    }
+  }
+
+  &.penguin {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(8) {
+        .pieces {
+          -webkit-clip-path: polygon(46.95% 80.714%, 58.95% 77.143%, 56.75% 82.571%);
+        }
+      }
+
+      &:nth-child(27) {
+        .pieces {
+          -webkit-clip-path: polygon(60.55% 62.714%, 63.05% 53.571%, 65.45% 69.429%);
+        }
+      }
+    }
+  }
+
+  &.tamarin {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(22.45% 33.071%, 23.15% 20.214%, 28.05% 29.929%);
+        }
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(22.35% 33.071%, 30.3% 24.786%, 31.05% 43.67%);
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(23.15% 20.214%, 26.75% 28.929%, 30.85% 21.214%);
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          -webkit-clip-path: polygon(23.05% 20.214%, 34.65% 14.786%, 29.75% 22.214%);
+        }
+      }
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon(29% 26%, 43.15% 29.357%, 30.85% 40.5%);
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          -webkit-clip-path: polygon(29.75% 21.071%, 34.7% 14.8%, 32.95% 27.4%);
+        }
+      }
+      &:nth-child(7) {
+        .pieces {
+          -webkit-clip-path: polygon(26.25% 24.5%, 28.95% 21.1%, 26.75% 30.786%);
+        }
+      }
+      &:nth-child(8) {
+        .pieces {
+          -webkit-clip-path: polygon(26.75% 30.643%, 28.75% 21.214%, 29.15% 29.214%);
+        }
+      }
+      &:nth-child(9) {
+        .pieces {
+          -webkit-clip-path: polygon(26.75% 30.7%, 29% 27.1%, 30.8% 31.929%);
+        }
+      }
+      &:nth-child(10) {
+        .pieces {
+          -webkit-clip-path: polygon(28.75% 21.071%, 33% 26.3%, 29.05% 27.214%);
+        }
+      }
+      &:nth-child(11) {
+        .pieces {
+          -webkit-clip-path: polygon(29% 27.214%, 33.05% 26.357%, 30.7% 32.071%);
+        }
+      }
+      &:nth-child(12) {
+        .pieces {
+          -webkit-clip-path: polygon(28.75% 21.214%, 32.3% 20.786%, 33.05% 26.357%);
+        }
+      }
+      &:nth-child(13) {
+        .pieces {
+          -webkit-clip-path: polygon(32.95% 27.214%, 34.65% 14.929%, 42.25% 29.357%);
+        }
+      }
+      &:nth-child(15) {
+        .pieces {
+          -webkit-clip-path: polygon(22.45% 33.071%, 31.95% 39.357%, 32.05% 52.214%);
+        }
+      }
+      &:nth-child(16) {
+        .pieces {
+          -webkit-clip-path: polygon(34.65% 15.071%, 47.25% 23.357%, 41.8% 29.1%);
+        }
+      }
+    }
+  }
+
+  &.camel {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(19) {
+        .pieces {
+          -webkit-clip-path: polygon(61.85% 32.857%, 72.75% 43.571%, 60.65% 56.4%);
+        }
+      }
+      &:nth-child(20) {
+        .pieces {
+          -webkit-clip-path: polygon(61.85% 32.9%, 68.95% 27%, 73.15% 30.143%);
+        }
+      }
+      &:nth-child(21) {
+        .pieces {
+          -webkit-clip-path: polygon(61.85% 32.857%, 72.95% 30%, 72.45% 44.143%);
+        }
+      }
+      &:nth-child(22) {
+        .pieces {
+          -webkit-clip-path: polygon(61.35% 55.429%, 72.55% 43.714%, 64.8% 64%);
+        }
+      }
+      &:nth-child(23) {
+        .pieces {
+          -webkit-clip-path: polygon(63.75% 66.429%, 72.5% 43.714%, 72.25% 58.429%);
+        }
+      }
+      &:nth-child(24) {
+        .pieces {
+          -webkit-clip-path: polygon(72.85% 29%, 78.65% 49.143%, 71.85% 62.143%);
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(72.85% 30.143%, 78.85% 34.8%, 79.25% 54.714%);
+        }
+      }
+      &:nth-child(26) {
+        .pieces {
+          -webkit-clip-path: polygon(68.85% 26.571%, 71.65% 19.571%, 79.15% 25.857%);
+        }
+      }
+      &:nth-child(27) {
+        .pieces {
+          -webkit-clip-path: polygon(73.05% 26.286%, 73.55% 18.571%, 79.15% 26%);
+        }
+      }
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon(68.75% 26.714%, 82.25% 25.286%, 73.95% 31.286%);
+        }
+      }
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(73.85% 31.143%, 82.25% 25.286%, 84.95% 30.286%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(73.85% 31.143%, 84.15% 30.286%, 78.85% 34.857%);
+        }
+      }
+      &:nth-child(31) {
+        .pieces {
+          -webkit-clip-path: polygon(84% 32.5%, 83% 33.5%, 81% 22%);
+        }
+      }
+    }
+  }
+
+  &.echidna {
+    .wrapper {
+      .pieces {
+      transition: .7s;
+      }
+      &:nth-child(14) {
+
+        .pieces {
+          -webkit-clip-path: polygon(34% 79.286%, 36% 72%, 39.4% 81.143%);
+        }
+      }
+      &:nth-child(15) {
+        .pieces {
+          -webkit-clip-path: polygon(32.1% 64.286%, 45.2% 69.286%, 34% 79.429%);
+        }
+      }
+    }
+  }
+
+  &.bear {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(28.35% 14.214%, 31.45% 10.2%, 31.7% 18.5%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(28.25% 14.4%, 29.05% 13.3%, 29.3% 15.786%);
+        }
+      }
+      &:nth-child(31) {
+        .pieces {
+          -webkit-clip-path: polygon(30.25% 21.214%, 32.05% 18.071%, 30.8% 15.786%);
+          background-color: #F1A9E2
+        }
+      }
+      &:nth-child(32) {
+        .pieces {
+          -webkit-clip-path: polygon(30.25% 21.214%, 31.7% 18.7%, 31.7% 32.786%);
+          background-color: #D289D3
+        }
+      }
+      &:nth-child(33) {
+        .pieces {
+          -webkit-clip-path: polygon(31.3% 30.214%, 33.7% 34.7%, 31.6% 32.786%);
+          background-color: #CA6CA5
+        }
+      }
+    }
+  }
+
+  &.turtle {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(24) {
+        .pieces {
+          -webkit-clip-path: polygon(60.25% 41.571%, 62.45% 19.429%, 67.95% 21.857%);
+        }
+      }
+      &:nth-child(23) {
+        .pieces {
+          -webkit-clip-path:polygon(60.25% 41.571%, 67.85% 21.714%, 68.05% 42.714%) ;
+        }
+      }
+      &:nth-child(22) {
+        .pieces {
+          -webkit-clip-path: polygon(55.05% 51.571%, 60.25% 41.429%, 68.05% 42.714%);
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(62.55% 19.714%, 62.95% 11%, 67.95% 22%);
+        }
+      }
+
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(81.65% 53.286%, 82.25% 49.857%, 83% 54.3%);
+        }
+      }
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon(75.35% 53.857%, 82.35% 49.857%, 81.75% 53.429%);
+        }
+      }
+    }
+  }
+
+  &.frog {
+    .wrapper {
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon(25.95% 36.857%, 36.25% 47.714%, 27.85% 49.714%);
+          background-color: #B89A00;
+          transition: .7s;
+        }
+      }
+    }
+  }
+
+  &.rhino {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(10) {
+        .pieces {
+          -webkit-clip-path: polygon(28.6% 62.5%, 37.2% 60.071%, 30.4% 82.786%);
+        }
+      }
+
+      &:nth-child(11) {
+        .pieces {
+          -webkit-clip-path: polygon(30.3% 82.786%, 34.7% 68.071%, 36.7% 82.8%);
+        }
+      }
+    }
+  }
+
+  &.armadillo {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(19.4% 78.8%, 18% 74.2%, 22.75% 68.1%);
+        }
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(17.95% 74.5%, 20.95% 57.357%, 24.55% 57.786%);
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(17.75% 74.8%, 24.35% 57.5%, 22.75% 68.214%);
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          -webkit-clip-path: polygon(22.65% 68.071%, 24.25% 57.643%, 28.05% 72.786%);
+        }
+      }
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon(19.36% 78.8%, 22.7% 68.1%, 28.2% 72.8%);
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          -webkit-clip-path: polygon(20.2% 77.8%, 25.95% 74%, 21.65% 78.7%);
+        }
+      }
+    }
+  }
+
+  &.owl {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(43.1% 56.929%, 39.7% 61.071%, 45.2% 58.786%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(45.2% 58.786%, 43.6% 65.214%, 47.4% 60.786%);
+        }
+      }
+    }
+  }
+
+  &.kakapo {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(9) {
+        .pieces {
+          -webkit-clip-path: polygon(10.612% 33.268%, 33.813% 25.268%, 22.213% 33.268%);
+        }
+      }
+      &:nth-child(10) {
+        .pieces {
+          -webkit-clip-path: polygon(21.513% 33.125%, 39.813% 51.8%, 23.413% 43.125%);
+          background-color: #436a2c;
+        }
+      }
+      &:nth-child(16) {
+        .pieces {
+
+          -webkit-clip-path: polygon(34.041% 25.2%, 58.841% 3.871%, 56.741% 12.299%);
+          background-color: #6aa84e;
+        }
+      }
+      &:nth-child(12) {
+        .pieces {
+          -webkit-clip-path: polygon(46.413% 41.696%, 56.712% 12.2%, 66.712% 23%);
+          background-color: #32401e;
+        }
+      }
+
+      &:nth-child(17) {
+        .pieces {
+          -webkit-clip-path: polygon( 33.712% 25.411% ,56.612% 12.411% ,46.513% 41.696% );
+          background-color: #283214;
+        }
+      }
+      &:nth-child(13) {
+        .pieces {
+          -webkit-clip-path: polygon( 33.953% 25.210%, 46.453% 41.781%, 21.353% 33.353%  );
+          background-color: #32401e;
+        }
+      }
+      &:nth-child(14) {
+        .pieces {
+          -webkit-clip-path: polygon( 21.253% 33.353% ,46.353% 41.781% ,39.753% 51.781% );
+          background-color: #39512c;
+        }
+      }
+      &:nth-child(26) {
+        .pieces {
+          -webkit-clip-path: polygon(46.453% 40.781%,  62.153% 48.6%, 39.753% 51.781%);
+          background-color: #445f2f;
+        }
+      }
+      &:nth-child(27) {
+        .pieces {
+          -webkit-clip-path: polygon(46.453% 41.638%, 66.653% 23.067%, 62.23% 49.21%);
+          background-color: #39512c;
+        }
+      }
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon( 56.741% 12.228% ,58.741% 3.656% ,66.741% 23.085% );
+          background-color: #519f4b;
+        }
+      }
+      &:nth-child(24) {
+        .pieces {
+          -webkit-clip-path: polygon(58.653% 32.281%, 69.053% 44.138%, 63.2% 54.4%);
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(42.45% 66.337%, 62.195% 48.766%, 63.25% 54.337%);
+        }
+      }
+    }
+  }
+
+
+
+
+}
+
+body.animation-lock.state2 {
+  &.crow {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(20) {
+        .pieces {
+          -webkit-clip-path: polygon(60.3% 19.5%, 69.2% 24.5%, 59.85% 36.96%);
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(60.3% 19.5%, 67.7% 15.5%, 73.6% 27.2%);
+        }
+      }
+      &:nth-child(26) {
+        .pieces {
+          -webkit-clip-path: polygon(66.3% 28.5%, 73.4% 26.8%, 69.1% 24.6%);
+        }
+      }
+      &:nth-child(21) {
+        .pieces {
+          -webkit-clip-path: polygon(64.8% 13.2%, 75.45% 13%, 73.5% 27.1%);
+        }
+      }
+      &:nth-child(27) {
+        .pieces {
+          -webkit-clip-path: polygon(68.27% 28.1%, 73.44% 26.6%, 73.3% 30.6%);
+        }
+      }
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon(73.6% 27.1%, 75.52% 12.8%, 75.8% 22.34%);
+        }
+      }
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(73.5% 26.8%, 75.4% 22.3%, 82% 27.7%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(73.5% 26.9%, 80.4% 32.15%, 73.2% 30.55%);
+        }
+      }
+      &:nth-child(33) {
+        .pieces {
+          -webkit-clip-path: polygon(78.1% 30.1%, 79.2% 27.6%, 80.7% 30%);
+        }
+      }
+    }
+  }
+
+  &.turtle {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(24) {
+        .pieces {
+          -webkit-clip-path: polygon(56.25% 41.571%, 55.45% 23.429%, 62.95% 21.857%);
+        }
+      }
+      &:nth-child(23) {
+        .pieces {
+          -webkit-clip-path:polygon(56.25% 41.571%, 62.85% 21.714%, 65.05% 41.714%) ;
+        }
+      }
+      &:nth-child(22) {
+        .pieces {
+          -webkit-clip-path: polygon(55.05% 51.571%, 56.25% 41.429%, 65.05% 41.714%);
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(55.55% 23.714%, 53.95% 15%, 62.95% 22%);
+        }
+      }
+    }
+  }
+
+  &.penguin {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(7) {
+        .pieces {
+          -webkit-clip-path: polygon(40.75% 84.571%, 51.35% 85%, 49.05% 82.857%);
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(38.15% 57.857%, 31.65% 78.571%, 52.75% 51%);
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          -webkit-clip-path: polygon(44.65% 39.571%, 35.85% 59.429%, 52.85% 50.857%);
+        }
+      }
+    }
+  }
+
+  &.seahorse {
+    .wrapper {
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(72% 64.214%, 75.5% 66.8%, 73.5% 67.45%);
+        }
+      }
+    }
+  }
+//TODO: what's this?
+  &.bear {
+    .wrapper {
+      @for $i from 31 through 33 {
+        &:nth-child(#{$i}) .pieces {
+          transition: 1s;
+        }
+      }
+    }
+  }
+
+  &.rhino {
+    .wrapper {
+      .pieces {
+        transition: .7s;
+      }
+      &:nth-child(10) {
+        .pieces {
+          -webkit-clip-path: polygon(28.6% 62.5%, 37.2% 60.071%, 34.4% 80.786%);
+        }
+      }
+
+      &:nth-child(11) {
+        .pieces {
+          -webkit-clip-path: polygon(34.3% 80.786%, 35.9% 69.071%, 39.7% 74.8%);
+        }
+      }
+    }
+  }
+
+  &.loris {
+    .wrapper {
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon(60.15% 38.929%, 67.55% 32.357%, 66.55% 51.929%);
+        }
+      }
+
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(60.25% 38.929%, 66.65% 48.786%, 64.65% 55.071%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(64.65% 54.643%, 66.65% 48.643%, 75.25% 59.5%);
+        }
+      }
+    }
+  }
+
+  &.iguana {
+    #show-stage {
+      .wrapper {
+        @for $i from 1 through 30 {
+          &:nth-child(#{$i}) .pieces {
+            transition-delay: $i * 0.01s;
+          }
+        }
+      }
+    }
+    .wrapper {
+
+      &:nth-child(1) {
+        .pieces {
+          background-color: #8A8E5B;
+        }
+      }
+
+      &:nth-child(2) {
+        .pieces {
+          background-color: #1D321B;
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          background-color: #396C28;
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          background-color: #255222;
+        }
+      }
+      &:nth-child(5) {
+        .pieces {
+          background-color: #1B4120;
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          background-color: #54725E
+        }
+      }
+      &:nth-child(8) {
+        .pieces {
+          background-color: #223322;
+        }
+      }
+      &:nth-child(9) {
+        .pieces {
+          background-color: #244D20;
+        }
+      }
+      &:nth-child(10) {
+        .pieces {
+          background-color: #1D2E1E;
+        }
+      }
+      &:nth-child(12) {
+        .pieces {
+          background-color: #2F5641;
+        }
+      }
+      &:nth-child(13) {
+        .pieces {
+          background-color: #1B4120;
+        }
+      }
+      &:nth-child(14) {
+        .pieces {
+          background-color: #1B361C;
+        }
+      }
+      &:nth-child(15) {
+        .pieces {
+          background-color: #223322;
+        }
+      }
+
+      &:nth-child(16) {
+        .pieces {
+          background-color: #335F25
+        }
+      }
+      &:nth-child(17) {
+        .pieces {
+          background-color: #476C3D
+        }
+      }
+      &:nth-child(18) {
+        .pieces {
+          background-color: #345524
+        }
+      }
+      &:nth-child(20) {
+        .pieces {
+          background-color: #1D2E1E
+        }
+      }
+      &:nth-child(21) {
+        .pieces {
+          background-color: #43642E
+        }
+      }
+
+      &:nth-child(22) {
+        .pieces {
+          background-color: #225122
+        }
+      }
+      &:nth-child(23) {
+        .pieces {
+          background-color: #253A1B
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          background-color: #2C411C
+        }
+      }
+      &:nth-child(26) {
+        .pieces {
+          background-color: #1D2E1E
+        }
+      }
+      &:nth-child(27) {
+        .pieces {
+          background-color: #355423
+        }
+      }
+
+      &:nth-child(28) {
+        .pieces {
+          background-color: #182318
+        }
+      }
+      &:nth-child(29) {
+        .pieces {
+          background-color: #1A3319
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          background-color: #236124
+        }
+      }
+    }
+  }
+
+}
+
+body.animation-lock.state3 {
+  &.sloth {
+    .wrapper {
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(63.15% 54%, 80.35% 68.143%, 71.55% 70.286%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(71.35% 70.4%, 81.75% 77.286%, 80.35% 68.143%);
+        }
+      }
+    }
+  }
+
+  &.camel {
+    .wrapper {
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(70.85% 29.143%, 75.85% 33.143%, 77.25% 51.714%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(70.85% 29.143%, 80.15% 31.286%, 75.85% 33.857%);
+        }
+      }
+      &:nth-child(31) {
+        .pieces {
+          -webkit-clip-path: polygon(79% 33.5%, 78% 34.5%, 76% 24%);
+        }
+      }
+    }
+  }
+
+  &.iguana {
+    .wrapper {
+      @for $i from 1 through 30 {
+        &:nth-child(#{$i}) .pieces {
+          transition-delay: $i * 0.01s;
+        }
+      }
+      &:nth-child(1) {
+        .pieces {
+          background-color: #6D7263
+        }
+      }
+
+      &:nth-child(2) {
+        .pieces {
+          background-color: #28262B
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          background-color: #464247
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          background-color: #3B3A3E
+        }
+      }
+      &:nth-child(5) {
+        .pieces {
+          background-color: #332F2F
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          background-color: #717176
+        }
+      }
+      &:nth-child(7) {
+        .pieces {
+          background-color: #96969A
+        }
+      }
+      &:nth-child(8) {
+        .pieces {
+          background-color: #323232
+        }
+      }
+      &:nth-child(9) {
+        .pieces {
+          background-color: #3B3A38
+        }
+      }
+      &:nth-child(10) {
+        .pieces {
+          background-color: #1C1B1B
+        }
+      }
+      &:nth-child(12) {
+        .pieces {
+          background-color: #4C4B4A
+        }
+      }
+      &:nth-child(13) {
+        .pieces {
+          background-color: #3B3A3B
+        }
+      }
+      &:nth-child(14) {
+        .pieces {
+          background-color: #232427
+        }
+      }
+      &:nth-child(15) {
+        .pieces {
+          background-color: #232427
+        }
+      }
+
+      &:nth-child(16) {
+        .pieces {
+          background-color: #484344
+        }
+      }
+      &:nth-child(17) {
+        .pieces {
+          background-color: #545554
+        }
+      }
+      &:nth-child(18) {
+        .pieces {
+          background-color: #3B3A3B
+        }
+      }
+      &:nth-child(19) {
+        .pieces {
+          background-color: #96969A
+        }
+      }
+      &:nth-child(20) {
+        .pieces {
+          background-color: #1C1B1B
+        }
+      }
+      &:nth-child(21) {
+        .pieces {
+          background-color: #464744
+        }
+      }
+
+      &:nth-child(22) {
+        .pieces {
+          background-color: #363431
+        }
+      }
+      &:nth-child(23) {
+        .pieces {
+          background-color: #2A2829
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          background-color: #363637
+        }
+      }
+      &:nth-child(26) {
+        .pieces {
+          background-color: #1C1B1B
+        }
+      }
+      &:nth-child(27) {
+        .pieces {
+          background-color: #2E2C2F
+        }
+      }
+
+      &:nth-child(28) {
+        .pieces {
+          background-color: #3B3A3B
+        }
+      }
+      &:nth-child(29) {
+        .pieces {
+          background-color: #323232
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          background-color: #595656
+        }
+      }
+    }
+  }
+
+  &.frog {
+    .wrapper {
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon(25.95% 36.857%, 36.25% 47.714%, 27.85% 47.714%);
+          background-color: #B89A00;
+        }
+      }
+    }
+  }
+
+
+}
+
+body.animation-lock.state-1{
+  &.rhino {
+    .wrapper {
+      .pieces {
+        transition: .1s;
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(17.5% 56.929%, 36.4% 52.071%, 21% 74.5%);
+        }
+      }
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(15.1% 70.071%, 18% 56.929%, 21% 74.5%);
+        }
+      }
+
+      &:nth-child(31) {
+        .pieces {
+          -webkit-clip-path: polygon(24% 72.5%, 23% 73.5%, 13% 65%);
+        }
+      }
+      &:nth-child(32) {
+        .pieces {
+          -webkit-clip-path: polygon(23% 75.5%, 14% 64.5%, 15% 63%);
+        }
+      }
+    }
+  }
+
+  &.peccary {
+    .wrapper {
+      &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(9) {
+        .pieces {
+          transition-duration: .12s;
+        }
+      }
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(15.95% 78.214%, 14.95% 79.929%, 22.25% 79.929%);
+        }
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(17.85% 58.786%, 22.05% 58.5%, 16.05% 78.214%);
+        }
+      }
+
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(15.95% 78.214%, 21.95% 58.214%, 22% 79.929%);
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          -webkit-clip-path: polygon(21.95% 58.643%, 26.85% 58.357%, 22% 79.929%);
+        }
+      }
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon(21.95% 58.5%, 26.85% 58.357%, 22.15% 59%);
+        }
+      }
+      &:nth-child(9) {
+        .pieces {
+          -webkit-clip-path: polygon(26.75% 58.5%, 29.8% 79.8%, 22.55% 77.071%);
+        }
+      }
+    }
+  }
+
+  &.echidna {
+    .wrapper {
+      @for $i from 1 through 7 {
+        &:nth-child(#{$i}) .pieces {
+          transition: 0.2s;
+        }
+      }
+
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(13.4% 75.429%, 22.2% 61.143%, 23.9% 63.429%);
+        }
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(13.4% 75.286%, 21.5% 66.143%, 14.7% 76.429%);
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          -webkit-clip-path: polygon(23.6% 63.429%, 26.9% 63.714%, 19.9% 68.286%);
+        }
+      }
+      &:nth-child(7) {
+        .pieces {
+          -webkit-clip-path: polygon(24.8% 60.571%, 26% 59.429%, 27.2% 58.571%);
+        }
+      }
+    }
+  }
+  &.crow {
+    .wrapper {
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(32.8% 58%, 38.4% 61.2%, 12.2% 77.5%);
+        }
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(21.9% 66.8%, 34.5% 55.9%, 27% 59.7%);
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(22.7% 61.9%, 39.2% 42.8%, 50.8% 49.8%);
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          -webkit-clip-path: polygon(30.3% 58.6%, 50% 49.9%, 61% 55.3%);
+        }
+      }
+    }
+  }
+
+  &.tamarin {
+    .wrapper {
+      &:nth-child(30) {
+        .pieces {
+          transition: 0.1s;
+          -webkit-clip-path: polygon(64.45% 80.0%, 75.85% 78.643%, 64.55% 84.643%);
+        }
+      }
+    }
+  }
+
+  &.butterfly {
+    .wrapper {
+      &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5),
+      &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9), &:nth-child(10),
+      &:nth-child(21), &:nth-child(22), &:nth-child(23), &:nth-child(24), &:nth-child(25),
+      &:nth-child(26), &:nth-child(27), &:nth-child(28), &:nth-child(29), &:nth-child(30) {
+        .pieces {
+          transition: .12s cubic-bezier(0.4, 0.3, 0.1, .4);
+        }
+      }
+
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(31.15% 16.5%, 39.25% 27.643%, 46.55% 47.929%);
+        }
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(31.15% 16.5%, 30.9% 53.929%, 33.25% 34.3%);
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(31.05% 16.5%, 32% 36.3%, 38.4% 27.5%);
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          -webkit-clip-path: polygon(32% 36.214%, 38.3% 27.4%, 46.6% 48.2%);
+        }
+      }
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon(31.9% 36.1%, 46.55% 48.214%, 30.85% 53.929%);
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          -webkit-clip-path: polygon(30.75% 53.786%, 46.55% 48.071%, 46.05% 52.643%);
+        }
+      }
+      &:nth-child(7) {
+        .pieces {
+          -webkit-clip-path: polygon(34.25% 55.5%, 45.95% 52.786%, 33.65% 64.786%);
+        }
+      }
+      &:nth-child(8) {
+        .pieces {
+          -webkit-clip-path: polygon(34.15% 55.5%, 45.95% 52.929%, 37.05% 57.643%);
+        }
+      }
+      &:nth-child(9) {
+        .pieces {
+          -webkit-clip-path: polygon(35.45% 60.5%, 36.45% 61.214%, 35.35% 62.071%);
+        }
+      }
+      &:nth-child(10) {
+        .pieces {
+          -webkit-clip-path: polygon(33.55% 64.643%, 45.85% 52.929%, 38.45% 70.214%);
+        }
+      }
+      &:nth-child(21) {
+        .pieces {
+          -webkit-clip-path: polygon(48.45% 54.214%, 55.95% 68.214%, 49.95% 75.214%);
+        }
+      }
+      &:nth-child(22) {
+        .pieces {
+          -webkit-clip-path: polygon(48.35% 54.214%, 55.95% 68.071%, 51.65% 64.786%);
+        }
+      }
+      &:nth-child(23) {
+        .pieces {
+          -webkit-clip-path: polygon(48.45% 54.214%, 49.95% 75.214%, 45.05% 74.214%);
+        }
+      }
+      &:nth-child(24) {
+        .pieces {
+          -webkit-clip-path: polygon(51.05% 70.071%, 51.85% 70.357%, 51.25% 71.929%);
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(48.35% 54.214%, 50.35% 49.929%, 58.75% 70.786%);
+        }
+      }
+      &:nth-child(26) {
+        .pieces {
+          -webkit-clip-path: polygon(50.45% 50.071%, 64.85% 43.929%, 76.55% 48.929%);
+        }
+      }
+      &:nth-child(27) {
+        .pieces {
+          -webkit-clip-path: polygon(50.45% 50.071%, 64.75% 45.214%, 65.85% 57.5%);
+        }
+      }
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon(50.35% 50.071%, 65.85% 57.357%, 58.65% 70.786%);
+        }
+      }
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(64.65% 45%, 76.55% 48.929%, 65.85% 57.5%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(65.75% 57.357%, 76.65% 48.929%, 58.65% 70.786%);
+        }
+      }
+    }
+  }
+
+  &.kakapo {
+    .wrapper {
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon( 9.353% 45.567% ,12.853% 54.281% ,10.253% 51.138% );
+          transition: 0.1s;
+        }
+      }
+      &:nth-child(6) {
+        .pieces {
+          -webkit-clip-path: polygon( 9.353% 45.424% ,12.753% 44.996% ,12.553% 54.710% );
+          transition: 0.1s;
+        }
+      }
+      &:nth-child(7) {
+        .pieces {
+          -webkit-clip-path: polygon(  12.753% 50.424%,  12.753% 44.996%, 20.853% 56.138% );
+          transition: 0.1s;
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon( 63.153% 54.138% ,70.753% 51.424% ,89.153% 66.996% );
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          background-color: #d2c895;
+          transition: 0.03s;
+        }
+      }
+    }
+  }
+
+  &.parrotfish {
+    .wrapper {
+      &:nth-child(19),&:nth-child(20),&:nth-child(21) {
+        .pieces {
+          transition: 0.1s;
+        }
+      }
+
+      &:nth-child(19) {
+        .pieces {
+          -webkit-clip-path: polygon(53.15% 38.35%, 56.8% 33.4%, 68.5% 48.3%);
+        }
+      }
+      &:nth-child(20) {
+        .pieces {
+          -webkit-clip-path: polygon(51.84% 44.6%, 53.212% 38.286%, 68.5% 48.2%);
+        }
+      }
+      &:nth-child(21) {
+        .pieces {
+          -webkit-clip-path: polygon(51.812% 44.3%, 68.4% 48%, 55.112% 53.429%);
+        }
+      }
+
+    }
+  }
+
+  &.damselfly {
+    .wrapper {
+      &:nth-child(27),&:nth-child(28),&:nth-child(29),&:nth-child(30)  {
+        .pieces {
+          transition: 0.3s;
+        }
+      }
+
+      &:nth-child(27) {
+        .pieces {
+          -webkit-clip-path: polygon(31.6% 39%, 69.5% 53.714%, 41.5% 30.857%);
+        }
+      }
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon(53.4% 40.714%, 69.5% 53.857%, 45.4% 42.286%);
+        }
+      }
+      &:nth-child(29) {
+        .pieces {
+          -webkit-clip-path: polygon(42.7% 45%, 45.5% 30%, 55.5% 41.429%);
+        }
+      }
+      &:nth-child(30) {
+        .pieces {
+          -webkit-clip-path: polygon(42.7% 45%, 34% 31.857%, 45.6% 30.143%);
+        }
+      }
+    }
+  }
+
+  &.armadillo {
+    .wrapper {
+      &:nth-child(8) {
+        .pieces {
+          transition-duration: .1s;
+          -webkit-clip-path: polygon(21.75% 58.214%, 25.45% 49.071%, 25.75% 62.071%);
+        }
+      }
+    }
+  }
+
+  &.turtle {
+    .wrapper {
+      &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5) {
+        .pieces {
+          transition-duration: .1s;
+        }
+      }
+
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(26.35% 55.857%, 32.45% 58.714%, 21.95% 69.571%);
+        }
+      }
+
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(22.65% 61%, 26.45% 56.286%, 21.95% 69.429%);
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          -webkit-clip-path: polygon(10.65% 56.714%, 19.05% 52.143%, 30.85% 51.857%);
+        }
+      }
+
+      &:nth-child(5) {
+        .pieces {
+          -webkit-clip-path: polygon(10.55% 56.571%, 30.85% 51.857%, 25.45% 58.143%);
+        }
+      }
+    }
+  }
+
+  &.owl {
+    .wrapper {
+      .pieces {
+        transition-duration: .1s;
+      }
+
+      &:nth-child(27) {
+        .pieces {
+          -webkit-clip-path: polygon(48.05% 42.1%, 67.4% 71.214%, 63.3% 47.643%);
+        }
+      }
+      &:nth-child(25) {
+        .pieces {
+          -webkit-clip-path: polygon(55% 20.929%, 64% 42.214%, 61.9% 30.214%);
+        }
+      }
+      &:nth-child(24) {
+        .pieces {
+          -webkit-clip-path: polygon(55% 20.929%, 55.9% 35.071%, 64.2% 42.5%);
+        }
+      }
+      &:nth-child(23) {
+        .pieces {
+          -webkit-clip-path:polygon(48.1% 42.2%, 57.8% 32.071%, 64.9% 48.3%);
+        }
+      }
+      &:nth-child(22) {
+        .pieces {
+          -webkit-clip-path: polygon(48% 20.643%, 55.03% 20.929%, 56% 35.7%);
+        }
+      }
+      &:nth-child(21) {
+        .pieces {
+          -webkit-clip-path: polygon(48.076% 20.643%, 48.076% 42.3%, 56% 35.1%);
+        }
+      }
+      &:nth-child(26) {
+        .pieces {
+          -webkit-clip-path: polygon(55.3% 34.8%, 62.7% 43.929%, 61.4% 40.1%);
+        }
+      }
+      &:nth-child(18) {
+        .pieces {
+          -webkit-clip-path: polygon(44.976% 31.357%, 35.876% 50.786%, 56.176% 53.643%);
+        }
+      }
+      &:nth-child(28) {
+        .pieces {
+          -webkit-clip-path: polygon(58.3% 57.5%, 61.5% 75.071%, 63.8% 65.357%);
+        }
+      }
+    }
+  }
+
+  &.frog {
+    .wrapper {
+      &:nth-child(10) {
+        .pieces {
+          -webkit-clip-path: polygon(31.15% 35.571%, 34.4% 35.9%, 37.35% 38.2%);
+        }
+      }
+      &:nth-child(11) {
+        .pieces {
+          -webkit-clip-path: polygon(31.15% 35.429%, 37.45% 38.143%, 34.1% 37.714%);
+        }
+      }
+      &:nth-child(12) {
+        .pieces {
+          -webkit-clip-path: polygon(32.65% 35.286%, 33.55% 36.1%, 33.15% 36%);
+        }
+      }
+    }
+  }
+
+  &.tapir {
+    .wrapper {
+      .pieces {
+        transition-duration: .2s;
+      }
+      &:nth-child(1) {
+        .pieces {
+          -webkit-clip-path: polygon(11.6% 81.286%, 14.9% 79%, 13.9% 74.429%);
+        }
+      }
+      &:nth-child(2) {
+        .pieces {
+          -webkit-clip-path: polygon(9.9% 72.3%, 11.7% 81.2%, 13.95% 74.571%);
+        }
+      }
+      &:nth-child(3) {
+        .pieces {
+          -webkit-clip-path: polygon(9.8% 72.3%, 13.8% 74.571%, 18% 65.7%);
+        }
+      }
+      &:nth-child(4) {
+        .pieces {
+          -webkit-clip-path: polygon(9.9% 72.4%, 17.9% 65.857%, 11.7% 56.286%);
+        }
+      }
+      &:nth-child(9) {
+        .pieces {
+          -webkit-clip-path: polygon(15% 41.857%, 18% 40%, 17.4% 47.429%);
+        }
+      }
+    }
+  }
+
+  &.vaquita {
+    .wrapper {
+      &:nth-child(16) {
+        .pieces {
+          -webkit-clip-path: polygon(25.99% 61.716%, 32.64% 61.368%, 32.91% 73.146%);
+          background-color: #0d1417;
+
+        }
+      }
+      &:nth-child(18) {
+        .pieces {
+          -webkit-clip-path: polygon(27.107% 55.964%, 39.318% 59.352%, 38.467% 66.772%);
+          background-color: #334543;
+        }
+      }
+      &:nth-child(19) {
+        .pieces {
+          -webkit-clip-path: polygon(27.107% 55.964%, 38.467% 66.772%, 42.128% 75.085%);
+          background-color: #21282f;
+        }
+      }
+    }
+  }
+
+  //&.crow {
+  //  .wrapper {
+  //
+  //  }
+  //}
+}
+
+body.animation-lock.shimmer {
+  @for $i from 1 through 30 {
+    .wrapper:nth-of-type(#{$i}) .pieces::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      animation: shimmer .8s ($i*0.05s+0.06s) forwards;
+    }
+  }
+}
+body.preAni.shimmer {
+  @for $i from 1 through 30 {
+    .wrapper:nth-of-type(#{$i}) .pieces::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      animation: shimmer-pre .8s ($i*0.05s+2.06s);
+    }
+  }
+}
+
+body.animation-lock {
+  #show-stage {
+    .wrapper {
+      .pieces {
+        transition-timing-function: cubic-bezier(0.62, 0.02, 0.34, 1);
+        transition-delay: 0s;
+      }
+    }
+  }
+}

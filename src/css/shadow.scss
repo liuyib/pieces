@@ -1,0 +1,671 @@
+/**
+ * Created by Moudi on 2017/3/1.
+ */
+body.crow {
+  .shadow {
+    left: 30%;
+    bottom: 10%;
+    width: 50%;
+    &::before {
+      left: 30%;
+      bottom: 0;
+      width: 50%;
+      height: 100%;
+    }
+    &::after {
+      left: -37%;
+      bottom: 20%;
+      height: 60%;
+      width: 50%;
+    }
+  }
+}
+
+body.vaquita {
+  .shadow {
+    left: 9%;
+    width: 70%;
+    &::before, &::after {
+      left: 20%;
+      bottom: 22%;
+      width: 30%;
+      height: 50%;
+    }
+    &::before {
+      left: 97%;
+    }
+  }
+}
+
+body.kakapo {
+  .shadow {
+    left: 12%;
+    width: 61%;
+    bottom: 11.3%;
+    height: 8%;
+
+    &::before {
+      left: 32%;
+      bottom: 22%;
+      width: 37%;
+      height: 55%;
+    }
+    &::after {
+      left: 108%;
+      bottom: 22%;
+      height: 44%;
+      width: 25%;
+    }
+  }
+}
+
+body.ostrich {
+  .shadow {
+    left: 38.5%;
+    width: 20%;
+    bottom: 10%;
+    height: 4%;
+
+    &::before {
+      left: -28%;
+      bottom: -33%;
+      width: 97%;
+      height: 88%;
+    }
+    &::after {
+      left: 37%;
+      bottom: 30%;
+      height: 60%;
+      width: 20%;
+    }
+  }
+}
+
+body.parrotfish {
+
+  .shadow {
+    left: 4%;
+    width: 80%;
+
+    &::before {
+      left: 43%;
+      bottom: 22%;
+      width: 37%;
+      height: 55%;
+    }
+    &::after {
+      left: 80%;
+      bottom: 20%;
+      height: 60%;
+      width: 30%;
+    }
+  }
+}
+
+body.penguin {
+
+  .shadow {
+    left: 25%;
+    width: 43%;
+    bottom: 12%;
+    height: 8%;
+
+    &::before {
+      left: 8%;
+      bottom: -18%;
+      width: 27%;
+      height: 39%;
+    }
+    &::after {
+      left: 75%;
+      bottom: 42%;
+      height: 37%;
+      width: 24%;
+    }
+  }
+}
+
+body.iguana {
+
+  .shadow {
+    left: 24%;
+    width: 80%;
+    bottom: 13%;
+
+    &::before {
+      left: 43%;
+      bottom: 22%;
+      width: 37%;
+      height: 55%;
+    }
+    &::after {
+      left: 80%;
+      bottom: 20%;
+      height: 60%;
+      width: 30%;
+    }
+  }
+}
+
+body.peccary {
+
+  .shadow {
+    left: 22%;
+    width: 60%;
+    bottom: 13%;
+
+    &::before {
+      left: 19%;
+      bottom: 22%;
+      width: 37%;
+      height: 55%;
+    }
+    &::after {
+      left: 77%;
+      bottom: 20%;
+      height: 40%;
+      width: 30%;
+    }
+  }
+}
+
+body.drill {
+
+  .shadow {
+    left: 34%;
+    width: 42%;
+    bottom: 13.2%;
+
+    &::before {
+      left: 6%;
+      bottom: -13%;
+      width: 60%;
+      height: 55%;
+    }
+    &::after {
+      left: 65%;
+      bottom: 34%;
+      height: 30%;
+      width: 20%;
+    }
+  }
+}
+
+body.oryx {
+
+  .shadow {
+    left: 14%;
+    width: 53%;
+    bottom: 12%;
+
+    &::before {
+      left: 71%;
+      bottom: 22%;
+      width: 30%;
+      height: 55%;
+    }
+    &::after {
+      left: 10%;
+      bottom: 23%;
+      height: 37%;
+      width: 30%;
+    }
+  }
+}
+
+body.frog {
+
+  .shadow {
+    left: 19%;
+    width: 53%;
+    bottom: 10.5%;
+    height: 13%;
+
+    &::before {
+      left: 26%;
+      bottom: 2%;
+      width: 50%;
+      height: 85%;
+    }
+    &::after {
+      left: 7%;
+      bottom: 36%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.seahorse {
+
+  .shadow {
+    left: 37%;
+    width: 50%;
+    bottom: 11.5%;
+    height: 5%;
+
+    &::before {
+      left: 58%;
+      bottom: 14%;
+      width: 50%;
+      height: 85%;
+    }
+    &::after {
+      left: 25%;
+      bottom: 36%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.camel {
+
+  .shadow {
+    left: 18%;
+    width: 45%;
+    bottom: 12.5%;
+    height: 5%;
+
+    &::before {
+      left: 48%;
+      bottom: 7%;
+      width: 50%;
+      height: 85%;
+    }
+    &::after {
+      left: 13%;
+      bottom: 36%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.butterfly {
+
+  .shadow {
+    left: 22%;
+    width: 45%;
+    bottom: 12.5%;
+    height: 5%;
+
+    &::before {
+      left: 32%;
+      bottom: 29%;
+      width: 20%;
+      height: 45%;
+    }
+    &::after {
+      left: 25%;
+      bottom: 36%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.armadillo {
+
+  .shadow {
+    left: 29%;
+    width: 45%;
+    bottom: 13.5%;
+    height: 4%;
+
+    &::before {
+      left: -21%;
+      bottom: 10%;
+      width: 33%;
+      height: 65%;
+    }
+    &::after {
+      left: 86%;
+      bottom: 25%;
+      height: 55%;
+      width: 18%;
+    }
+  }
+}
+
+body.panda {
+
+  .shadow {
+    left: 25%;
+    width: 45%;
+    bottom: 12.5%;
+    height: 5%;
+
+    &::before {
+      left: 38%;
+      bottom: -32%;
+      width: 50%;
+      height: 85%;
+    }
+    &::after {
+      left: 16%;
+      bottom: 32%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.hirola {
+
+  .shadow {
+    left: 32%;
+    width: 45%;
+    bottom: 12.5%;
+    height: 5%;
+
+    &::before {
+      left: 42%;
+      bottom: 0%;
+      width: 50%;
+      height: 62%;
+    }
+    &::after {
+      left: 13%;
+      bottom: 32%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.sifaka {
+
+  .shadow {
+    left: 38%;
+    width: 45%;
+    bottom: 13.4%;
+    height: 5%;
+
+    &::before {
+      left: 18%;
+      bottom: 26%;
+      width: 50%;
+      height: 55%;
+    }
+    &::after {
+      left: -52%;
+      bottom: 27%;
+      height: 45%;
+      width: 20%;
+    }
+  }
+}
+
+body.rhino {
+
+  .shadow {
+    left: 28%;
+    width: 45%;
+    bottom: 13.5%;
+    height: 5%;
+
+    &::before {
+      left: 86%;
+      bottom: 10%;
+      width: 40%;
+      height: 65%;
+    }
+    &::after {
+      left: -9%;
+      bottom: 36%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.tamarin {
+
+  .shadow {
+    left: 20%;
+    width: 55%;
+    bottom: 12.7%;
+    height: 5%;
+
+    &::before {
+      left: 58%;
+      bottom: 9%;
+      width: 50%;
+      height: 85%;
+    }
+    &::after {
+      left: 10%;
+      bottom: 30%;
+      height: 45%;
+      width: 18%;
+    }
+  }
+}
+
+body.turtle {
+
+  .shadow {
+    left: 19%;
+    width: 55%;
+    bottom: 12.5%;
+    height: 5%;
+
+    &::before {
+      width: 0%;
+    }
+    &::after {
+      left: 87%;
+      bottom: 26%;
+      height: 55%;
+      width: 26%;
+    }
+  }
+}
+
+body.okapi {
+
+  .shadow {
+    left: 21%;
+    width: 45%;
+    bottom: 13.5%;
+    height: 5%;
+
+    &::before {
+      left: 58%;
+      bottom: 7%;
+      width: 50%;
+      height: 85%;
+    }
+    &::after {
+      left: 7%;
+      bottom: 21%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.lynx {
+
+  .shadow {
+    left: 32%;
+    width: 45%;
+    bottom: 14%;
+    height: 5%;
+
+    &::before {
+      left: 33%;
+      bottom: 6%;
+      width: 50%;
+      height: 85%;
+    }
+    &::after {
+      left: 15%;
+      bottom: -3%;
+      height: 31%;
+      width: 28%;
+    }
+  }
+}
+
+body.bear {
+
+  .shadow {
+    left: 30.3%;
+    width: 35%;
+    bottom: 12.6%;
+    height: 5%;
+
+    &::before {
+      left: 57%;
+      bottom: -7%;
+      width: 50%;
+      height: 49%;
+    }
+    &::after {
+      left: 25%;
+      bottom: 37%;
+      height: 25%;
+      width: 31%;
+    }
+  }
+}
+
+body.echidna {
+
+  .shadow {
+    left: 25%;
+    width: 45%;
+    bottom: 12.5%;
+    height: 6%;
+
+    &::before {
+      left: 66%;
+      bottom: 27%;
+      width: 45%;
+      height: 60%;
+    }
+    &::after {
+      left: 1%;
+      bottom: 22%;
+      height: 25%;
+      width: 18%;
+    }
+  }
+}
+
+body.loris {
+
+  .shadow {
+    left: 34%;
+    width: 60%;
+    bottom: 14.2%;
+
+    &::before {
+      left: 44%;
+      bottom: 26%;
+      width: 37%;
+      height: 55%;
+    }
+    &::after {
+      left: 40%;
+      bottom: 20%;
+      height: 60%;
+      width: 30%;
+    }
+  }
+}
+
+body.damselfly {
+
+  .shadow {
+    left: 20%;
+    width: 55%;
+    bottom: 12.5%;
+    height: 3%;
+
+    &::before {
+      width: 0%;
+    }
+    &::after {
+      width: 0%;
+    }
+  }
+}
+
+body.sloth {
+
+  .shadow {
+    left: 20%;
+    width: 55%;
+    bottom: 12.5%;
+    height: 5%;
+
+    &::before {
+      left: -19%;
+      bottom: 16%;
+      width: 35%;
+      height: 85%;
+    }
+    &::after {
+      left: 93%;
+      bottom: 13%;
+      height: 55%;
+      width: 18%;
+    }
+  }
+}
+
+body.owl {
+
+  .shadow {
+    left: 15%;
+    bottom: 12%;
+    width: 70%;
+    height: 6%;
+
+    &::before {
+      left: 48%;
+      bottom: 16%;
+      width: 37%;
+      height: 70%;
+    }
+    &::after {
+      width: 0;
+      left: 50%;
+    }
+  }
+}
+
+body.tapir {
+
+  .shadow {
+    left: 18.8%;
+    bottom: 9%;
+    width: 27%;
+    height: 6%;
+
+    &::before {
+      left: 168%;
+      bottom: 43%;
+      width: 68%;
+      height: 59%;
+    }
+    &::after {
+      width: 140%;
+      left: 68%;
+      height: 110%;
+      bottom: 20%;
+    }
+  }
+}
+
+body.state1.echidna {
+  .shadow {
+    &::after {
+      left: 19%;
+      bottom: 32%;
+    }
+  }
+}

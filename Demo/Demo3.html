@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Reddy.Huang <i@0u0b.com>"/>
+    <title>Title</title>
+    <style>
+        body {
+        	background: url('img/frog.png') no-repeat;
+        }
+        .polygon-wrap {
+        	width: 520px;
+        	height: 350px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="polygon-wrap">
+    	<div class="pieces"></div>
+    </div>
+    <script src="../assets/jquery-3.1.1.min.js"></script>
+    <script>
+    	var nodecount = 0;
+    	var nodescss = '-webkit-clip-path: polygon( ';
+    	$('body').on('click', function (e){
+		  var mouseX = e.pageX;
+		  var mouseY = e.pageY;
+
+		  var shapesoffsetX = $('.polygon-wrap').offset().left;
+		  var shapesoffsetY = $('.polygon-wrap').offset().top;
+
+		  var polygonswidth=$('.polygon-wrap').width();
+		  var polygonsheight=$('.polygon-wrap').height();
+
+		  var shapesmouseX = mouseX - shapesoffsetX;
+		  var shapesmouseY = mouseY - shapesoffsetY;
+
+		  var mousepercentX = shapesmouseX / polygonswidth;
+		  var mousepercentY = shapesmouseY / polygonsheight;
+
+		  var finalmouseX = (mousepercentX) * 100 ;
+		  var finalmouseY = (mousepercentY) * 100 ;
+		  var normalisedX = parseFloat(finalmouseX).toFixed(3);
+		  var normalisedY = parseFloat(finalmouseY).toFixed(3);
+
+		  nodecount = nodecount+1;
+
+		  if (nodecount < 3) {
+		    nodescss = nodescss + normalisedX + '% ' + normalisedY + '% ,';
+		  } else  
+		  if (nodecount == 3) {
+		    nodescss = nodescss + normalisedX + '% ' + normalisedY + '% );';
+		    console.log(nodescss);
+		    nodescss = '-webkit-clip-path: polygon( ';
+		    nodecount = 0;
+		  }   
+		});
+    </script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+/**
+ * Created by Moudi on 2017/2/28.
+ */
+
+//设置额外碎片的transition delay
+@for $i from 31 through 33 {
+  .wrapper:nth-of-type(#{$i}) .pieces {
+    transition-delay: ($i - 30) * 0.08s;
+  }
+}
+
+body.crow {
+  .wrapper:nth-child(31) .pieces {
+    background-color: #3a2228;
+    -webkit-clip-path: polygon(39% 87.5%, 41.7% 76.4%, 43.4% 78.6%);
+    clip-path: polygon(39% 87.5%, 41.7% 76.4%, 43.4% 78.6%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    background-color: #4a3042;
+    -webkit-clip-path: polygon(41.5% 76.5%, 60% 63.7%, 43.3% 78.7%);
+    clip-path: polygon(41.5% 76.5%, 60% 63.7%, 43.3% 78.7%);
+  }
+  .wrapper:nth-child(33) .pieces {
+    background-color: #3a2228;
+    -webkit-clip-path: polygon(75.5% 30.5%, 75.5% 30.5%, 75.5% 30.5%);
+    clip-path: polygon(75.5% 30.5%, 75.5% 30.5%, 75.5% 30.5%);
+  }
+}
+
+body.vaquita {
+  .extra {
+    .pieces {
+      background-color: rgba(255, 255, 255, 0);
+      animation: bubbles 2s infinite forwards;
+    }
+  }
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(15% 18.5%, 15.5% 22%, 17% 20%);
+    clip-path: polygon(15% 18.5%, 15.5% 22%, 17% 20%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(11.67% 9.5%, 12.3% 8.4%, 12.7% 9.7%);
+    clip-path: polygon(11.67% 9.5%, 12.3% 8.4%, 12.7% 9.7%);
+    animation-delay: .3s;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(7.75% 35.5%, 9.4% 37%, 9.1% 34.5%);
+    clip-path: polygon(7.75% 35.5%, 9.4% 37%, 9.1% 34.5%);
+    animation-delay: .6s;
+  }
+}
+
+body.kakapo {
+  .wrapper:nth-child(31) .pieces {
+    background-color: #fff;
+    -webkit-clip-path: polygon(52.603% 27.924%, 65.003% 27.924%, 57.003% 19.924%);
+    clip-path: polygon(52.603% 27.924%, 65.003% 27.924%, 57.003% 19.924%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    background-color: #fff;
+    -webkit-clip-path: polygon(63.603% 27.924%, 75.003% 27.924%, 69.003% 19.924%);
+    clip-path: polygon(63.603% 27.924%, 75.003% 27.924%, 69.003% 19.924%);
+  }
+  .wrapper:nth-child(33) .pieces {
+    background-color: #fafafa;
+    -webkit-clip-path: polygon(56.603% 27.924%, 70.003% 27.924%, 63.003% 17%);
+    clip-path: polygon(56.603% 27.924%, 70.003% 27.924%, 63.003% 17%);
+  }
+}
+
+body.ostrich {
+  .wrapper:nth-child(31) .pieces {
+    background-color: darken(#14aa78, 10%);
+    -webkit-clip-path: polygon(67% 60.5%, 65% 79%, 63% 79%);
+    clip-path: polygon(67% 60.5%, 65% 79%, 63% 79%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    background-color: #14aa78;
+    -webkit-clip-path: polygon(61% 63.5%, 65% 82%, 63% 82%);
+    clip-path: polygon(61% 63.5%, 65% 82%, 63% 82%);
+  }
+}
+
+body.parrotfish {
+  .extra {
+    .pieces {
+      background-color: rgba(255, 255, 255, 0);
+      animation: bubbles 2s infinite forwards;
+    }
+  }
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(95% 18.5%, 95.5% 22%, 97% 20%);
+    clip-path: polygon(95% 18.5%, 95.5% 22%, 97% 20%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(91.67% 9.5%, 92.3% 8.4%, 92.7% 9.7%);
+    clip-path: polygon(91.67% 9.5%, 92.3% 8.4%, 92.7% 9.7%);
+    animation-delay: .3s;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(87.75% 35.5%, 89.4% 37%, 89.1% 34.5%);
+    clip-path: polygon(87.75% 35.5%, 89.4% 37%, 89.1% 34.5%);
+    animation-delay: .6s;
+  }
+}
+
+body.iguana {
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(0% 46.3%, 4.85% 36.5%, 46.05% 55.071%);
+    clip-path: polygon(0% 46.3%, 4.85% 36.5%, 46.05% 55.071%);
+    background-color: #453C37;
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(-0.050% 46.214%, 46.850% 55.071%, 52.750% 68.071%);
+    clip-path: polygon(-0.050% 46.214%, 46.850% 55.071%, 52.750% 68.071%);
+    background-color: #342D1E;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(73.650% 84.357%, 38.850% 57.071%, 92.750% 84.214%);
+    clip-path: polygon(73.650% 84.357%, 38.850% 57.071%, 92.750% 84.214%);
+    background-color: #2C2215;
+  }
+}
+
+body.peccary {
+  .wrapper:nth-child(31) .pieces {
+    background-color: darken(#14aa78, 10%);
+    -webkit-clip-path: polygon(87% 70.5%, 85% 89%, 83% 89%);
+    clip-path: polygon(87% 70.5%, 85% 89%, 83% 89%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    background-color: #14aa78;
+    -webkit-clip-path: polygon(81% 73.5%, 85% 92%, 83% 92%);
+    clip-path: polygon(81% 73.5%, 85% 92%, 83% 92%);
+  }
+}
+
+body.frog {
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(24.350% 68.143%, 56.650% 67.143%, 79.350% 85.714%);
+    clip-path: polygon(24.350% 68.143%, 56.650% 67.143%, 79.350% 85.714%);
+    background-color: #3B6F4B;
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(24.250% 68.143%, 79.350% 85.714%, 50.350% 87.286%);
+    clip-path: polygon(24.250% 68.143%, 79.350% 85.714%, 50.350% 87.286%);
+    background-color: #4E9F73;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(24.350% 68.143%, 29.250% 71.714%, 27.250% 79.000%);
+    clip-path: polygon(24.350% 68.143%, 29.250% 71.714%, 27.250% 79.000%);
+    background-color: #1D3246;
+  }
+}
+
+body.seahorse {
+  .wrapper:nth-child(28), .wrapper:nth-child(29) {
+    z-index: 4;
+  }
+  &.extra {
+    z-index: 3;
+  }
+  .wrapper:nth-child(31) .pieces {
+    webkit-clip-path: polygon(62.100% 17.214%, 64.700% 15.643%, 78.400% 64.071%);
+    clip-path: polygon(62.100% 17.214%, 64.700% 15.643%, 78.400% 64.071%);
+    background-color: #68602A
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(67.300% 32.071%, 78.600% 64.214%, 78.100% 71.500%);
+    clip-path: polygon(67.300% 32.071%, 78.600% 64.214%, 78.100% 71.500%);
+    background-color: #434227
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(78.400% 64.214%, 80.400% 85.643%, 76.900% 85.786%);
+    clip-path: polygon(78.400% 64.214%, 80.400% 85.643%, 76.900% 85.786%);
+    background-color: #494221
+  }
+}
+
+body.camel {
+  .wrapper:nth-child(28), .wrapper:nth-child(29) {
+    z-index: 3;
+  }
+  .wrapper:nth-child(31) {
+    z-index: 2;
+  }
+  .wrapper:nth-child(31) .pieces {
+    webkit-clip-path: polygon(81% 31.5%, 80% 32.5%, 78% 21%);
+    clip-path: polygon(81% 31.5%, 80% 32.5%, 78% 21%);
+
+    background-color: #14aa78;
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(76% 75.5%, 77% 90%, 75.5% 90%);
+    clip-path: polygon(76% 75.5%, 77% 90%, 75.5% 90%);
+    background-color: #14aa78;
+  }
+}
+
+body.sifaka {
+  .extra {
+    z-index: 2;
+  }
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(56.600% 84.000%, 66.500% 63.143%, 65.000% 84.000%);
+    clip-path: polygon(56.600% 84.000%, 66.500% 63.143%, 65.000% 84.000%);
+    background-color: #5A4331;
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(61.500% 74.000%, 61.200% 22.714%, 66.400% 63.286%);
+    clip-path: polygon(61.500% 74.000%, 61.200% 22.714%, 66.400% 63.286%);
+    background-color: #45392F;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(66.400% 63.286%, 64.200% 4.571%, 58.800% 5.286%);
+    clip-path: polygon(66.400% 63.286%, 64.200% 4.571%, 58.800% 5.286%);
+    background-color: #5F4E47;
+  }
+}
+
+body.rhino {
+  .wrapper:nth-child(31) .pieces {
+    background-color: darken(#14aa78, 10%);
+    -webkit-clip-path: polygon(24% 73.5%, 23% 74.5%, 13% 66%);
+    clip-path: polygon(24% 73.5%, 23% 74.5%, 13% 66%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(23% 76.5%, 14% 65.5%, 15% 64%);
+    clip-path: polygon(23% 76.5%, 14% 65.5%, 15% 64%);
+    background-color: #14aa78;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(26% 75.5%, 27% 90%, 25.5% 90.5%);
+    clip-path: polygon(26% 75.5%, 27% 90%, 25.5% 90.5%);
+    background-color: #14aa78;
+  }
+}
+
+body.tamarin {
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(35.75% 62.214%, 45.96% 58%, 43.1% 84.8%);
+    clip-path: polygon(35.75% 62.214%, 45.96% 58%, 43.1% 84.8%);
+    background-color: #6A463F;
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(45.95% 57.2%, 54.65% 61.214%, 43% 85%);
+    clip-path: polygon(45.95% 57.2%, 54.65% 61.214%, 43% 85%);
+    background-color: #5E382D
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(43.050% 84.786%, 54.750% 60.214%, 52.750% 84.786%);
+    clip-path: polygon(43.050% 84.786%, 54.750% 60.214%, 52.750% 84.786%);
+    background-color: #4F3220
+  }
+}
+
+body.turtle {
+  .extra {
+    .pieces {
+      background-color: rgba(255, 255, 255, 0);
+      animation: bubbles 2s infinite forwards;
+    }
+  }
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(85% 18.5%, 85.5% 22%, 87% 20%);
+    clip-path: polygon(85% 18.5%, 85.5% 22%, 87% 20%);
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(81.67% 9.5%, 82.3% 8.4%, 82.7% 9.7%);
+    clip-path: polygon(81.67% 9.5%, 82.3% 8.4%, 82.7% 9.7%);
+    animation-delay: .4s;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(77.75% 35.5%, 79.4% 37%, 79.1% 34.5%);
+    clip-path: polygon(77.75% 35.5%, 79.4% 37%, 79.1% 34.5%);
+    animation-delay: .8s;
+  }
+}
+
+body.bear {
+  .wrapper:nth-child(31) .pieces,
+  .wrapper:nth-child(32) .pieces,
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(31.25% 18.214%, 32.05% 17.071%, 30.8% 12.786%);
+    clip-path: polygon(31.25% 18.214%, 32.05% 17.071%, 30.8% 12.786%);
+    background-color: #F1A9E2
+  }
+}
+
+body.sloth {
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(19.850% 40.000%, 21.650% 43.714%, 19.150% 85.000%);
+    clip-path: polygon(19.850% 40.000%, 21.650% 43.714%, 19.150% 85.000%);
+    background-color: #4D373D;
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(20.3% 41%, 40.25% 29.3%, 21.6% 43.771%);
+    clip-path: polygon(20.3% 41%, 40.25% 29.3%, 21.6% 43.771%);
+    background-color: #1F1D17;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(20.350% 41.000%, 60.450% 12.714%, 63.450% 15.714%);
+    clip-path: polygon(20.350% 41.000%, 60.450% 12.714%, 63.450% 15.714%);
+    background-color: #4D373D;
+  }
+}
+
+body.owl {
+  .wrapper:nth-child(31) .pieces {
+    -webkit-clip-path: polygon(23.500% 43.786%, 22.300% 47.500%, 55.800% 69.357%);
+    clip-path: polygon(23.500% 43.786%, 22.300% 47.500%, 55.800% 69.357%);
+    background-color: #392232;
+  }
+  .wrapper:nth-child(32) .pieces {
+    -webkit-clip-path: polygon(33.000% 54.357%, 60.500% 78.643%, 55.800% 69.357%);
+    clip-path: polygon(33.000% 54.357%, 60.500% 78.643%, 55.800% 69.357%);
+    background-color: #170C02;
+  }
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(55.800% 69.214%, 62.500% 84.929%, 67.100% 85.071%);
+    clip-path: polygon(55.800% 69.214%, 62.500% 84.929%, 67.100% 85.071%);
+    background-color: #2E1A1F;
+  }
+}

@@ -1,0 +1,200 @@
+/**
+ * Created by Moudi on 2017/3/18.
+ */
+.no-delay {
+  .wrapper .pieces {
+    transition-delay: 0s !important;
+  }
+}
+
+.smash {
+  background: #1c1c1c !important;
+  #show-stage {
+    animation: rotate19 200s linear !important;
+  }
+  #show-stage .wrapper:nth-child(2n) .pieces {
+    background: url("../img/blood.png") repeat center center !important;
+    background-size: 10% !important;
+  }
+  @for $i from 1 through 30 {
+    .wrapper:nth-child(#{$i}) .pieces {
+      transition-duration: 1s !important;
+      -webkit-clip-path: polygon(nth(map-get($path-1, smash), $i)) !important;
+      clip-path: polygon(nth(map-get($path-1, smash), $i)) !important;
+    }
+  }
+  .wrapper:nth-child(31) .pieces,
+  .wrapper:nth-child(32) .pieces,
+  .wrapper:nth-child(33) .pieces {
+    -webkit-clip-path: polygon(50% 50%, 50% 50%, 50% 50%) !important;
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%) !important;
+    transition: 0.05s !important;
+    background-image: none;
+    animation: none !important;
+  }
+  .shadow {
+    opacity: 0 !important;
+  }
+  .nav {
+    pointer-events: none;
+  }
+  .animal-nav {
+    li {
+      transition: .23s ease-in;
+      opacity: 0;
+      transform: translateX(11px);
+      pointer-events: none;
+    }
+  }
+  .main-nav {
+    li {
+      transition: .23s ease-in;
+      opacity: 0;
+      transform: translateX(-11px);
+      pointer-events: none;
+    }
+
+  }
+  .animal-info {
+    transition: .2s ease-in 0s;
+    opacity: 0;
+    transform: translateY(11px);
+  }
+  footer {
+    pointer-events: none;
+    ul li {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+  }
+  .footer-nav {
+    pointer-events: none;
+    opacity: 0;
+  }
+}
+
+.popout.big-red {
+  background: url(../img/popout-red-mid.png) repeat-x left center;
+  background-size: 131px 51px;
+  padding: 21px 7px 21px 7px;
+  line-height: 1.7em;
+  color: #fff;
+  font-size: 1em;
+  &::before, &::after {
+    width: 42px;
+    background: url(../img/popout-red-end.png) no-repeat center center;
+  }
+  &::before {
+    left: -22px;
+    background-size: 42px 50px;
+  }
+  &::after {
+    right: -22px;
+    background-size: 42px 50px;
+    transform: rotateY(180deg);
+  }
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.34s;
+  pointer-events: none;
+  .content-info, .infos > p {
+    transform: translateY(2px);
+  }
+  &.show {
+    opacity: 1 !important;
+    pointer-events: auto;
+    .content-info, .infos > * {
+      opacity: 1 !important;
+    }
+    .content-info, .infos > p {
+      transform: translateY(0);
+    }
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0;
+    transition: 2s;
+    text-align: center;
+    &::before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    .content-info {
+      display: inline-block;
+      margin: -5em 0 0em;
+      width: 80%;
+      max-width: 490px;
+      vertical-align: middle;
+      transition: 0.3s;
+      opacity: 0;
+      ul {
+        text-align: center;
+        li {
+          display: inline-block;
+        }
+      }
+      .infos {
+        position: relative;
+        margin: 0em 0 2.3em;
+        width: 100%;
+        @for $i from 1 through 5 {
+          & > *:nth-child(#{$i}) {
+            transition-delay: $i*.34s;
+          }
+        }
+        .nav-btn {
+          margin-bottom: 36px;
+          &::after {
+            background-color: #323232;
+          }
+        }
+        & > * {
+          opacity: 0;
+          transition: 0.45s cubic-bezier(0.62, 0.02, 0.34, 1);
+        }
+        ul {
+          margin-bottom: 1.5em;
+          li {
+            font-size: .97em;
+            color: #555;
+            letter-spacing: .13em;
+            span {
+              color: #888;
+            }
+            &:nth-child(2) {
+              margin: 0 7px;
+              color: rgba(255, 255, 255, 0.2);
+            }
+          }
+        }
+        p {
+          font-size: 16px;
+          letter-spacing: .19em;
+          line-height: 1.3em;
+          margin-bottom: .6em;
+          span {
+            color: $main-text;
+          }
+          &:nth-child(3) {
+            font-size: 18px;
+            line-height: 1.1em;
+            margin-bottom: .8em;
+            width: 90%;
+            margin-left: 5%;
+          }
+        }
+      }
+    }
+  }
+}

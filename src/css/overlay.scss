@@ -1,0 +1,118 @@
+/**
+ * Created by Moudi on 2017/3/18.
+ */
+.overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.945);
+  z-index: 999;
+  overflow-y: scroll;
+  pointer-events: none;
+  transform: translateY(100%);
+  transition: 0.45s cubic-bezier(1, 0, 0, 1);
+  text-align: center;
+  &.active {
+    pointer-events: auto;
+    transform: translateY(0);
+    .close {
+      opacity: 1 !important;
+    }
+    div.active > * {
+      opacity: 1 !important;
+      @for $i from 1 through 10 {
+        &:nth-child(#{$i}) {
+          transition: $i*.08+0.48s cubic-bezier(0.62, 0.02, 0.34, 1) $i*.1+0.4s;
+        }
+      }
+    }
+  }
+  .nav-btn.close {
+    margin-top: 4%;
+    opacity: 0;
+    transition-delay: 0.4s;
+    background: url(../img/green-texture.png) repeat center center/40px 40px;
+    &::after {
+      background-color: #fafafa;
+    }
+    .icon::before, .icon::after {
+      background: url(../img/green-texture-less.png) repeat center center/30px 30px;
+    }
+  }
+  & > div {
+    display: none;
+    width: 80%;
+    max-width: 580px;
+    margin: 0 auto;
+    padding: 1% 10% 5.5%;
+    transition: 1s cubic-bezier(0.62, 0.02, 0.34, 1);
+  }
+  h2 {
+    font-size: 24px;
+    color: #f03252;
+    margin: 1.4em 0 .4em;
+  }
+  div > * {
+    opacity: 0;
+  }
+  p {
+    color: #444;
+    font-size: 16px;
+    text-transform: none;
+    line-height: 20px;
+    margin-bottom: 10px;
+    &:nth-child(2) {
+      font-size: 20px;
+      text-transform: uppercase;
+      line-height: 1.2em;
+      letter-spacing: .06em;
+    }
+  }
+  .feature {
+    width: 15%;
+    margin-right: 3%;
+    border: none;
+  }
+  ul {
+    margin-bottom: 3.2em;
+    li {
+      border-bottom: 2px solid #ccc;
+      padding: 1.7em 0 1.4em;
+      a {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 1.1em;
+        span {
+          font-size: 12px;
+          -webkit-filter: brightness(0.6);
+          filter: brightness(0.6)
+        }
+      }
+    }
+  }
+  img {
+    width: 100%;
+    margin: 1.6em 0 1.8em;
+    border: 1px solid #ededed;
+    transition: 0.2s;
+  }
+  a:hover img {
+    border: 1px solid #ddd;
+  }
+}
+
+.line-link {
+  &:hover {
+    &::after {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  &.dark-line {
+    &::after {
+        background: url(../img/green-texture-less.png) repeat left center;
+    }
+  }
+}
